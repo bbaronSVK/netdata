@@ -38,9 +38,9 @@ CHARTS = {
     'connections': {
         'options': [None, 'Connections', 'connections/s', 'connections', 'memcached.connections', 'line'],
         'lines': [
-            ['curr_connections', 'current', 'incremental'],
+            ['curr_connections', 'current', 'absolute'],
             ['rejected_connections', 'rejected', 'incremental'],
-            ['total_connections', 'total', 'incremental']
+            ['total_connections', 'new', 'incremental']
         ]},
     'items': {
         'options': [None, 'Items', 'items', 'items', 'memcached.items', 'line'],
